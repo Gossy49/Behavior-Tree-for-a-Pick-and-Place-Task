@@ -1,0 +1,29 @@
+digraph pastafarianism {
+ordering=out;
+graph [fontname="times-roman"];
+node [fontname="times-roman"];
+edge [fontname="times-roman"];
+Root [label="Ⓜ Root", shape=box, style=filled, fillcolor=orange, fontsize=9, fontcolor=black];
+SeqObj1 [label="Ⓜ SeqObj1", shape=box, style=filled, fillcolor=orange, fontsize=9, fontcolor=black];
+Root -> SeqObj1;
+MoveToObj1 [label=MoveToObj1, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj1 -> MoveToObj1;
+PickObj1 [label=PickObj1, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj1 -> PickObj1;
+MoveToDrop1 [label=MoveToDrop1, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj1 -> MoveToDrop1;
+PlaceObj1 [label=PlaceObj1, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj1 -> PlaceObj1;
+SeqObj2 [label="Ⓜ SeqObj2", shape=box, style=filled, fillcolor=orange, fontsize=9, fontcolor=black];
+Root -> SeqObj2;
+MoveToObj2 [label=MoveToObj2, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj2 -> MoveToObj2;
+PickObj2 [label=PickObj2, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj2 -> PickObj2;
+MoveToDrop2 [label=MoveToDrop2, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj2 -> MoveToDrop2;
+PlaceObj2 [label=PlaceObj2, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+SeqObj2 -> PlaceObj2;
+ReturnHome [label=ReturnHome, shape=ellipse, style=filled, fillcolor=gray, fontsize=9, fontcolor=black];
+Root -> ReturnHome;
+}
